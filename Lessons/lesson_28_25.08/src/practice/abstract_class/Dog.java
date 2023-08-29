@@ -1,4 +1,4 @@
-package practice.abstract_class;
+package abstract_class;
 
 public class Dog extends Pet{
     private String name;

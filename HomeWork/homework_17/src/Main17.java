@@ -1,6 +1,6 @@
 package src;
 
-import src.ait.MyDate;
+import src.MyDate;
 
 public class Main17 {
     public static void main(String[] args) {
@@ -19,11 +19,11 @@ public class Main17 {
 #3 ** Реализовать проверку, если машина уже едет, а я пытаюсь вызвать метод drive, должно появляться сообщение, что машина уже едет.
          */
 
-        src.ait.MyDate date = new src.ait.MyDate(12,5,2012);
+        MyDate date = new MyDate(12,5,2012);
         Engine engine = new Engine(150,"benzine");
-        Car car1 = new Car("Mercedes","white","AA2563BT", new src.ait.MyDate(19,12,2020), new Engine(239,"benzine"));
-        Car car2 = new Car("BMW", "green","AH7755BP",new src.ait.MyDate(7,5,2019), new Engine(195, "diesel"));
-        Car car3 = new Car("Opel","black", "SAK B737",new src.ait.MyDate(13,7,1996),new Engine(196,"diesel"));
+        Car car1 = new Car("Mercedes","white","AA2563BT", new MyDate(19,12,2020), new Engine(239,"benzine"));
+        Car car2 = new Car("BMW", "green","AH7755BP",new MyDate(7,5,2019), new Engine(195, "diesel"));
+        Car car3 = new Car("Opel","black", "SAK B737",new MyDate(13,7,1996),new Engine(196,"diesel"));
         Car car4 = new Car("Tesla","white","B DO 245",new MyDate(28,2,2021), new Engine(130,"electric"));
 
         Car [] cars = {car1,car2,car3,car4};

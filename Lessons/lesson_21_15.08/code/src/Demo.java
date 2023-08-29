@@ -1,4 +1,4 @@
-package code.src;
+package src;
 
 public class Demo {
     int var = 10;

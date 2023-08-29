@@ -1,4 +1,4 @@
-package code.src;
+package src;
 
 public class Singleton2 {
     public final static String MESSAGE = "this is singleton pattern";

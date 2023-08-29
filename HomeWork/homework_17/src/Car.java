@@ -1,12 +1,12 @@
 package src;
 
-import src.ait.MyDate;
+import src.MyDate;
 
 public class Car {
    private String brand;
    private String color;
    private String licensePlate;
-   private src.ait.MyDate registrationDate;
+   private MyDate registrationDate;
    private Engine engine;
    private boolean inDrive=false;
 

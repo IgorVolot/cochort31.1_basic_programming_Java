@@ -1,4 +1,4 @@
-package practice.unit_test;
+package unit_test;
 
 public class SumElement {
     public static void main(String[] args) {
