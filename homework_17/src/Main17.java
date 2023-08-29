@@ -1,6 +1,6 @@
-package homework_17;
+package src;
 
-public class Main {
+public class Main17 {
     public static void main(String[] args) {
         /*
         #1 Создать класс Car со следующими полями (String brand, String color, String licensePlate, MyDate registrationDate, Engine engine}

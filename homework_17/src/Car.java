@@ -1,4 +1,4 @@
-package homework_17;
+package src;
 
 public class Car {
    private String brand;

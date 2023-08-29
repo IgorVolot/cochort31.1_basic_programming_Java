@@ -1,4 +1,4 @@
-package homework_17;
+package src;
 
 public class MyDate {
     private int day;
