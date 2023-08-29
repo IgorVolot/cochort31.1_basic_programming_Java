@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/lesson_01_18.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_02_19.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_03_20.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_04_21.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_05_24.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_06_25.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_07_26.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_08_27.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_09_28.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_10_31.07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_11_01.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_12_02.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_13_03.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_14_04.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_15_07.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_17_09.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_19_11.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_21_15.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_22_16.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_23_17.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_28_28.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_28_28.08/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_16_08.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_16_08.08/practices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_20_14.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_20_14.08/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_27_24.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_27_24.08/Company" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_27_24.08/Company/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_29_28.08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_29_28.08/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
