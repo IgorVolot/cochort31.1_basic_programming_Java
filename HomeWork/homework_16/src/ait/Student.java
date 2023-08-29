@@ -1,4 +1,6 @@
-package homework_16;
+package ait;
+
+import ait.MyDate;
 
 public class Student {
     String firstName;

@@ -1,4 +1,4 @@
-package homework_16;
+package ait;
 
 public class MyDate {
 

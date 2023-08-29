@@ -1,4 +1,4 @@
-package homework_19_2;
+package src;
 
 public class Main {
     ;

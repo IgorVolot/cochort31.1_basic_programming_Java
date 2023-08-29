@@ -1,14 +1,16 @@
 package src;
 
+import src.ait.MyDate;
+
 public class Car {
    private String brand;
    private String color;
    private String licensePlate;
-   private MyDate registrationDate;
+   private src.ait.MyDate registrationDate;
    private Engine engine;
    private boolean inDrive=false;
 
-   public Car (String brand, String color, String licensePlate, MyDate registrationDate,Engine engine){
+   public Car (String brand, String color, String licensePlate, MyDate registrationDate, Engine engine){
       this.brand=brand;
       this.color=color;
       this.licensePlate=licensePlate;

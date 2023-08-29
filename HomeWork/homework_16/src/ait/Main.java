@@ -1,4 +1,7 @@
-package homework_16;
+package ait;
+
+import ait.MyDate;
+import ait.Student;
 
 import java.util.Scanner;
 
