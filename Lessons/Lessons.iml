@@ -35,6 +35,9 @@
       <sourceFolder url="file://$MODULE_DIR$/lesson_26_23.08/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_29_28.08" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_29_28.08/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_31_30.08_Comparator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_31_30.08_Comparator/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson_31_30.08_Comparator/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
