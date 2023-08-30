@@ -1,4 +1,4 @@
-package array;
+package qwerty;
 
 public class Arrays {
 
