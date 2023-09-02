@@ -10,26 +10,22 @@ import java.util.Comparator;
 import static org.junit.jupiter.api.Assertions.*;
 
 class DateSortTest {
-    String[] dates;
     Comparator<String> dateComparator;
+    String[] dates;
+
 
     @BeforeEach
     void setUp() {
-        dateComparator = (s1, s2) -> {
-            for (int i = 0; i < dates.length; i++) {
-                if(s1.compareTo(s2)>0){
-                    dates[i] = dates[i+1];
-                }
-            }
-            return 0;
+        dates = new String[] {"07-05-1990", "28-01-2010", "11-08-1990", "15-01-2010", "16-06-1970"};
+        dateComparator = (s1, s2) -> { s1.substring(6,9).compareTo(s2.substring(6,9));
+            return Integer.parseInt(Arrays.toString(dates));
         };
     }
 
 
-
-    public Comparator<String> getDateComparator() {
-        return dateComparator;
-    }
+//    public Comparator<String> getDateComparator() {
+//        return dateComparator;
+//    }
 
 
     @Test
