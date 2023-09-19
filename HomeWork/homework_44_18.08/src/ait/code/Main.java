@@ -11,7 +11,7 @@ public class Main {
         List<Integer> list = Arrays.asList(-2, 10, 4, 2, 6, -5, 8, 3, -7, 0);
 
         System.out.println(list);
-        System.out.println(sumOfNum4(list, 9));
+        System.out.println(sumOfNum2(list, 9));
 
     }
 
@@ -33,16 +33,15 @@ public class Main {
 
     // option 2
     public static List<Integer> sumOfNum2(List<Integer> nums, int n) {
-        Set<Integer> set = new HashSet<>();
+        List<Integer> result = new ArrayList<>();
         for (int i = 0; i < nums.size(); i++) {
             int numberToFind = n - nums.get(i);
-            if (set.contains(numberToFind)) {
-                set.add(nums.get(i));
-                return new ArrayList<>();
+            if (nums.contains(numberToFind)) {
+                result.add(nums.get(i));
             }
-            set.add(nums.get(i));
+            result.add(nums.get(i));
         }
-        return new ArrayList<>(0);
+        return result;
     }
 
     // option 3
