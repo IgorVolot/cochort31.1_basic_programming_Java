@@ -11,7 +11,7 @@ public class Main {
         List<Integer> list = Arrays.asList(-2, 10, 4, 2, 6, -5, 8, 3, -7, 0);
 
         System.out.println(list);
-        System.out.println(sumOfNum2(list, 9));
+        System.out.println(sumOfNum3(list, 9));
 
     }
 
@@ -56,6 +56,7 @@ public class Main {
                 int mid = leftEnd + (rightEnd - leftEnd) / 2;
                 if (nums.get(mid) == numberToFind) {
                     result.add(nums.get(i));
+                    result.add(nums.get(mid));
                 }
                 if (numberToFind < nums.get(mid)) {
                     rightEnd = mid - 1;
