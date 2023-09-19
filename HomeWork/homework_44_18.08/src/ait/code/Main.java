@@ -20,7 +20,7 @@ public class Main {
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < nums.size(); i++) {
             for (int j = 0; j < nums.size(); j++) {
-                int sum = nums.get(i) + nums.get(i);
+                int sum = nums.get(i) + nums.get(j);
                 if (sum == n) {
                     result.add(nums.get(i));
                     result.add(nums.get(j));
