@@ -11,7 +11,7 @@ public class Main {
         List<Integer> list = Arrays.asList(-2, 10, 4, 2, 6, -5, 8, 3, -7, 0);
 
         System.out.println(list);
-        System.out.println(sumOfNum1(list, 9));
+        System.out.println(sumOfNum4(list, 9));
 
     }
 
@@ -37,7 +37,7 @@ public class Main {
         for (int i = 0; i < nums.size(); i++) {
             int numberToFind = n - nums.get(i);
             if (set.contains(numberToFind)) {
-                nums.add(nums.get(i));
+                set.add(nums.get(i));
                 return new ArrayList<>();
             }
             set.add(nums.get(i));
@@ -48,6 +48,7 @@ public class Main {
     // option 3
     public static List<Integer> sumOfNum3(List<Integer> nums, int n) {
         Collections.sort(nums);
+        List<Integer> result = new ArrayList<>();
         for (int i = 0; i < nums.size(); i++) {
             int numberToFind = n - nums.get(i);
             int leftEnd = i + 1;
@@ -55,8 +56,7 @@ public class Main {
             while (leftEnd < rightEnd) {
                 int mid = leftEnd + (rightEnd - leftEnd) / 2;
                 if (nums.get(mid) == numberToFind) {
-                    nums.add(nums.get(i));
-                    return new ArrayList<>();
+                    result.add(nums.get(i));
                 }
                 if (numberToFind < nums.get(mid)) {
                     rightEnd = mid - 1;
@@ -65,20 +65,20 @@ public class Main {
                 }
             }
         }
-        return new ArrayList<>(0);
+        return result;
     }
 
     // option 4
     public static List<Integer> sumOfNum4(List<Integer> nums, int n) {
         Collections.sort(nums);
+        List<Integer> result = new ArrayList<>();
         int leftEnd = 0;
         int rightEnd = nums.size() - 1;
         while (leftEnd < rightEnd) {
             int sum = nums.get(leftEnd) + nums.get(rightEnd);
             if (sum == n) {
-                nums.add(nums.get(leftEnd));
-                nums.add(nums.get(rightEnd));
-                return new ArrayList<>();
+                result.add(nums.get(leftEnd));
+                result.add(nums.get(rightEnd));
             }
             if (sum < n) {
                 leftEnd++;
@@ -86,6 +86,6 @@ public class Main {
                 rightEnd--;
             }
         }
-        return new ArrayList<>(0);
+        return result;
     }
 }
